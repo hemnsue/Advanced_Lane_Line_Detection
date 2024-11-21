@@ -11,7 +11,6 @@ The camera is calibrated using chessboard images taken from the same camera pres
 * The frame is read from the recorded video
 * The frame is then undistorted
 * The frames are now blurred to soften up the edges
-* Now colour grading and binary thresholding is done for extraction of data , t
+* Now colour grading and binary thresholding is done for extraction of data using different colour spaces like HLS,grayscale and then edge detection using sobel x and sobel y , hence using bitwise or and and merging the binary data
 * Now a specific region of interest is defined on the frame in terms of pixel values(x,y)//predefined
 * The data inside the region of interest is only considered for lane line detection
-* The 
